@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newbie Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="calculator.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <form name="display">
+          <input type="text" class="result" name="result" />
+        </form>
+
+        <input class="clearbutton" type="button" value="C" onclick="clr()" />
+        <input class="mathbutton" type="button" value="Del" onclick="dlt()" />
+        <input
+          class="mathbutton"
+          type="button"
+          value="X"
+          onclick="inputs('*')"
+        />
+
+        <input
+          class="numberbutton"
+          type="button"
+          value="7"
+          onclick="inputs(7)"
+        />
+        <input
+          class="numberbutton"
+          type="button"
+          value="8"
+          onclick="inputs(8)"
+        />
+        <input
+          class="numberbutton"
+          type="button"
+          value="9"
+          onclick="inputs(9)"
+        />
+        <input
+          class="mathbutton"
+          type="button"
+          value="/"
+          onclick="inputs('/')"
+        />
+
+        <input
+          class="numberbutton"
+          type="button"
+          value="4"
+          onclick="inputs(4)"
+        />
+        <input
+          class="numberbutton"
+          type="button"
+          value="5"
+          onclick="inputs(5)"
+        />
+        <input
+          class="numberbutton"
+          type="button"
+          value="6"
+          onclick="inputs(6)"
+        />
+        <input
+          class="mathbutton"
+          type="button"
+          value="-"
+          onclick="inputs('-')"
+        />
+
+        <input
+          class="numberbutton"
+          type="button"
+          value="4"
+          onclick="inputs(1)"
+        />
+        <input
+          class="numberbutton"
+          type="button"
+          value="5"
+          onclick="inputs(2)"
+        />
+        <input
+          class="numberbutton"
+          type="button"
+          value="6"
+          onclick="inputs(3)"
+        />
+        <input
+          class="mathbutton"
+          type="button"
+          value="+"
+          onclick="inputs('+')"
+        />
+
+        <input
+          class="numberbutton"
+          type="button"
+          value="0"
+          onclick="inputs(0)"
+        />
+        <input
+          class="mathbutton"
+          type="button"
+          value="."
+          onclick="inputs('.')"
+        />
+        <input class="equalbutton" type="button" value="=" onclick="final()" />
+      </div>
+    </div>
+  </body>
+</html>
